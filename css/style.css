@@ -24,7 +24,6 @@ body{
 .uContent{
     width: 50%;
     text-align: left;
-    /* justify-content: flex-start; */
 }
 .colors{
     width: 40%;
@@ -65,7 +64,59 @@ body{
 
 #uploadedImageContainer {
     position: absolute;
-    top: 80%; /* Adjust this value to position the uploaded image */
-    left: 25%; /* Adjust this value to position the uploaded image */
-    transform: translateX(-50%);
+    top: 80%; 
+    left: 24%; 
+}
+
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile devices */
+  
+    /* Example styles */
+    body {
+      font-size: 14px;
+    }
+  
+    .content {
+      flex-direction: column;
+      margin-top: 5rem;
+    }
+  
+    .uImage {
+      width: 100%;
+    }
+  
+    .imgWrapper img {
+      width: 100%;
+    }
+  
+    .uContent {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .colors {
+        width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .uploadBtn {
+        width: auto;
+        margin: auto;
+    }
+
+    .uploadBtn img {
+        margin-left: 1rem;
+    }
+
+    .logo_text{
+        margin: auto;
+    }
+    #uploadedImageContainer {
+        position: absolute;
+        top: 54%; 
+        left: 42%; 
+    }
   }
+  
