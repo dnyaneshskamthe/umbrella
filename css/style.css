@@ -62,10 +62,13 @@ body{
     margin-left: 2rem;   
 }
 
+.imgWrapper{
+    position: relative;
+}
 #uploadedImageContainer {
     position: absolute;
-    top: 80%; 
-    left: 24%; 
+    top: 85%; 
+    left: 45%; 
 }
 
 @media only screen and (max-width: 767px) {
@@ -113,10 +116,15 @@ body{
     .logo_text{
         margin: auto;
     }
+
+    .imgWrapper{
+        position: relative;
+    }
+
     #uploadedImageContainer {
         position: absolute;
-        top: 54%; 
-        left: 42%; 
+        top: 85%; 
+        left: 45%; 
     }
   }
   
