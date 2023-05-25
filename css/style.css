@@ -65,7 +65,7 @@ body{
 
 #uploadedImageContainer {
     position: absolute;
-    bottom: -20px; /* Adjust this value to position the uploaded image */
-    left: 50%; /* Adjust this value to position the uploaded image */
+    top: 80%; /* Adjust this value to position the uploaded image */
+    left: 25%; /* Adjust this value to position the uploaded image */
     transform: translateX(-50%);
   }

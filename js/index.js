@@ -42,9 +42,9 @@
               const umbrellaLeft = umbrellaRect.left + window.scrollX;
       
               // Set the position of the resized image below the umbrella image
-              resizedImage.style.position = 'absolute';
-              resizedImage.style.top = umbrellaTop + umbrellaImage.offsetHeight + 10 + 'px';
-              resizedImage.style.left = umbrellaLeft + 'px';
+            //   resizedImage.style.position = 'absolute';
+            //   resizedImage.style.top = umbrellaTop + umbrellaImage.offsetHeight - 10 + 'px';
+            //   resizedImage.style.left = umbrellaLeft + 'px';
       
               // Append the resized image element to the uploaded image container
               const uploadedImageContainer = document.getElementById('uploadedImageContainer');
