@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(177, 229, 229);
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.uImage{
+    width: 50%;
+}
+.imgWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgWrapper img{
+    width: 60%;
+}
+
+.uContent{
+    width: 50%;
+    text-align: left;
+    /* justify-content: flex-start; */
+}
+.colors{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.txt p{
+    color: rgb(78, 75, 75);
+}
+
+
+.uploadBtn{
+    display: flex;
+    width: 40%;
+    height: 2rem;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.uploadBtn img {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    width: 8%;
+}
+
+.logo_text{
+    color: white;
+    font-weight: bolder;
+    margin-top: 0.4rem;
+    margin-left: 2rem;   
+}
+
+#uploadedImageContainer {
+    position: absolute;
+    bottom: -20px; /* Adjust this value to position the uploaded image */
+    left: 50%; /* Adjust this value to position the uploaded image */
+    transform: translateX(-50%);
+  }
