@@ -40,13 +40,13 @@ body{
     color: rgb(78, 75, 75);
 }
 
-
+.upload{
+    width: 40%;  
+}
 .uploadBtn{
     display: flex;
-    width: 40%;
+    width: 100%;
     height: 2rem;
-    background-color: aqua;
-    border-radius: 50px;
 }
 
 .uploadBtn img {
@@ -59,7 +59,7 @@ body{
     color: white;
     font-weight: bolder;
     margin-top: 0.4rem;
-    margin-left: 2rem;   
+    margin-left: 3.5rem;   
 }
 
 .imgWrapper{
@@ -104,6 +104,11 @@ body{
       align-items: center;
     }
 
+    .upload{
+        width: 40%;
+        margin-left: 30%;
+    }
+
     .uploadBtn {
         width: auto;
         margin: auto;
@@ -113,8 +118,11 @@ body{
         margin-left: 1rem;
     }
 
+    
     .logo_text{
-        margin: auto;
+        color: white;
+        font-weight: bolder;
+        margin:auto; 
     }
 
     .imgWrapper{

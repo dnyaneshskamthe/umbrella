@@ -66,18 +66,31 @@
   const pinkButton = document.getElementById("pinkBtn");
   const blueButton = document.getElementById("blueBtn");
 
+  const logobutton = document.querySelector(".uploadBtn");    
+  logoButton.style.backgroundColor = 'yellow';
+  logoButton.style.borderRadius = '50px';
+
   yellowButton.addEventListener("click", () => {
     const umbrellaImage = document.getElementById("umbrellaImage");
     umbrellaImage.src = "./images/yellow.png";
+    const logobutton = document.querySelector(".uploadBtn");    
+    logoButton.style.backgroundColor = 'yellow'
+    logoButton.style.borderRadius = '50px'
   });
 
   pinkButton.addEventListener("click", () => {
     const umbrellaImage = document.getElementById("umbrellaImage");
     umbrellaImage.src = "./images/pink.png";
+    const logobutton = document.querySelector(".uploadBtn");    
+    logoButton.style.backgroundColor = 'pink';
+    logoButton.style.borderRadius = '50px'
   });
 
   blueButton.addEventListener("click", () => {
     const umbrellaImage = document.getElementById("umbrellaImage");
     umbrellaImage.src = "./images/blue.png";
+    const logobutton = document.querySelector(".uploadBtn");    
+    logoButton.style.backgroundColor = 'blue';
+    logoButton.style.borderRadius = '50px'
   });
 }
